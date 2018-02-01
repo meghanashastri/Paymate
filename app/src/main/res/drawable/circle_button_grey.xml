@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shape xmlns:android="http://schemas.android.com/apk/res/android"
-    android:shape="oval">
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
 
-    <solid android:color="@color/colorAccent" />
-
-    <size
-        android:width="@dimen/circle_button_radius"
-        android:height="@dimen/circle_button_radius" />
-</shape>
+        <shape android:shape="oval">
+            <solid android:color="@color/white" />
+            <stroke android:width="0.5dp" android:color="@color/circle_button_border" />
+            <!-- Set the same value for both width and height to get a circular shape -->
+            <size android:width="@dimen/circle_button_radius" android:height="@dimen/circle_button_radius" />
+        </shape>
+    </item>
+</selector>

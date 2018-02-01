@@ -13,6 +13,7 @@
     <string name="hint_account_number">Account Number</string>
     <string name="hint_ifcs_code">IFSC Code</string>
     <string name="hint_bank_name">Bank Name</string>
+    <string name="ifsc">IFSC</string>
 
     <string name="first_name_icon">&#xe001;</string>
     <string name="email_icon">&#xe01f;</string>
@@ -20,4 +21,8 @@
     <string name="address_icon">&#xf015;</string>
     <string name="right_icon">&#xf105;</string>
     <string name="cancel_icon">&#xf00d;</string>
+    <string name="company_icon">&#xf1ad;</string>
+    <string name="referral_icon">&#xf292;</string>
+    <string name="account_icon">&#xe02a;</string>
+    <string name="bank_icon">&#xf19c;</string>
 </resources>

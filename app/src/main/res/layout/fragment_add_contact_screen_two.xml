@@ -44,7 +44,8 @@
             android:layout_marginRight="@dimen/margin_30dp"
             android:background="@drawable/circle_button_grey"
             android:text="@string/cancel_icon"
-            android:textSize="@dimen/button_text_size" />
+            android:textColor="@color/hint_color"
+            android:textSize="@dimen/cancel_button_text_size" />
 
         <Button
             android:id="@+id/btnNext"
@@ -78,12 +79,12 @@
                 android:weightSum="1">
 
                 <TextView
-                    android:id="@+id/iconFirstName"
+                    android:id="@+id/iconCompany"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_weight="0.07"
-                    android:text="@string/first_name_icon"
+                    android:text="@string/company_icon"
                     android:textColor="@color/icon_color"
                     android:textSize="@dimen/font_icon_size" />
 
@@ -115,13 +116,13 @@
                 android:weightSum="1">
 
                 <TextView
-                    android:id="@+id/iconLastName"
+                    android:id="@+id/iconReferralCode"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_weight="0.07"
-                    android:text="@string/first_name_icon"
-                    android:textColor="@color/bg_color"
+                    android:text="@string/referral_icon"
+                    android:textColor="@color/icon_color"
                     android:textSize="@dimen/font_icon_size" />
 
                 <android.support.design.widget.TextInputLayout
@@ -152,14 +153,14 @@
                 android:weightSum="1">
 
                 <TextView
-                    android:id="@+id/iconNickName"
+                    android:id="@+id/iconGstin"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_weight="0.07"
-                    android:text="@string/first_name_icon"
-                    android:textColor="@color/bg_color"
-                    android:textSize="@dimen/font_icon_size" />
+                    android:text="@string/hint_gstin"
+                    android:textColor="@color/hint_color"
+                    android:textSize="@dimen/text_size_12sp" />
 
                 <android.support.design.widget.TextInputLayout
                     android:layout_width="0dp"
@@ -190,12 +191,12 @@
                 android:weightSum="1">
 
                 <TextView
-                    android:id="@+id/iconEmail"
+                    android:id="@+id/iconAccount"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_weight="0.07"
-                    android:text="@string/email_icon"
+                    android:text="@string/account_icon"
                     android:textColor="@color/icon_color"
                     android:textSize="@dimen/font_icon_size" />
 
@@ -227,14 +228,14 @@
                 android:weightSum="1">
 
                 <TextView
-                    android:id="@+id/iconMobileNumber"
+                    android:id="@+id/iconIfsc"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_weight="0.07"
-                    android:text="@string/mobile_number_icon"
+                    android:text="@string/ifsc"
                     android:textColor="@color/icon_color"
-                    android:textSize="@dimen/simple_icon_size" />
+                    android:textSize="@dimen/text_size_12sp" />
 
                 <android.support.design.widget.TextInputLayout
                     android:layout_width="0dp"
@@ -264,14 +265,14 @@
                 android:weightSum="1">
 
                 <TextView
-                    android:id="@+id/iconAddress"
+                    android:id="@+id/iconBank"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_weight="0.07"
-                    android:text="@string/address_icon"
+                    android:text="@string/bank_icon"
                     android:textColor="@color/icon_color"
-                    android:textSize="@dimen/simple_icon_size" />
+                    android:textSize="@dimen/font_icon_size" />
 
                 <android.support.design.widget.TextInputLayout
                     android:layout_width="0dp"

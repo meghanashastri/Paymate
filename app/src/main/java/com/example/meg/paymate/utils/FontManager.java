@@ -12,7 +12,7 @@ public class FontManager {
     public static final String ROOT = "fonts/",
             FONTAWESOME = ROOT + "fontawesome-webfont.ttf";
 
-    public static final String SIMPLELINE = ROOT + "Simple-line-Icons.ttf";
+    public static final String SIMPLELINE = ROOT + "Simple-Line-Icons.ttf";
 
     public static Typeface getTypeface(Context context, String font) {
         return Typeface.createFromAsset(context.getAssets(), font);

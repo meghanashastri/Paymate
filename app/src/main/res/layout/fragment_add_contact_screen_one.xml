@@ -48,27 +48,29 @@
             android:layout_marginStart="@dimen/margin_20dp"
             android:orientation="vertical">
 
-            <RelativeLayout
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/margin_10dp">
+                android:layout_marginBottom="@dimen/margin_10dp"
+                android:orientation="horizontal"
+                android:weightSum="1">
 
                 <TextView
                     android:id="@+id/iconFirstName"
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.05"
                     android:text="@string/first_name_icon"
                     android:textColor="@color/icon_color"
                     android:textSize="@dimen/font_icon_size" />
 
                 <android.support.design.widget.TextInputLayout
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="@dimen/margin_20dp"
                     android:layout_marginStart="@dimen/margin_20dp"
-                    android:layout_toEndOf="@id/iconFirstName"
-                    android:layout_toRightOf="@id/iconFirstName"
+                    android:layout_weight="0.95"
                     android:textColorHint="@color/hint_color">
 
                     <EditText
@@ -80,29 +82,31 @@
                         android:textSize="@dimen/text_size" />
                 </android.support.design.widget.TextInputLayout>
 
-            </RelativeLayout>
+            </LinearLayout>
 
-            <RelativeLayout
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/margin_10dp">
+                android:layout_marginBottom="@dimen/margin_10dp"
+                android:orientation="horizontal"
+                android:weightSum="1">
 
                 <TextView
                     android:id="@+id/iconLastName"
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.05"
                     android:text="@string/first_name_icon"
                     android:textColor="@color/bg_color"
                     android:textSize="@dimen/font_icon_size" />
 
                 <android.support.design.widget.TextInputLayout
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="@dimen/margin_20dp"
                     android:layout_marginStart="@dimen/margin_20dp"
-                    android:layout_toEndOf="@id/iconLastName"
-                    android:layout_toRightOf="@id/iconLastName"
+                    android:layout_weight="0.95"
                     android:textColorHint="@color/hint_color">
 
                     <EditText
@@ -114,29 +118,31 @@
                         android:textSize="@dimen/text_size" />
                 </android.support.design.widget.TextInputLayout>
 
-            </RelativeLayout>
+            </LinearLayout>
 
-            <RelativeLayout
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/margin_10dp">
+                android:layout_marginBottom="@dimen/margin_10dp"
+                android:orientation="horizontal"
+                android:weightSum="1">
 
                 <TextView
                     android:id="@+id/iconNickName"
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.05"
                     android:text="@string/first_name_icon"
                     android:textColor="@color/bg_color"
                     android:textSize="@dimen/font_icon_size" />
 
                 <android.support.design.widget.TextInputLayout
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="@dimen/margin_20dp"
                     android:layout_marginStart="@dimen/margin_20dp"
-                    android:layout_toEndOf="@id/iconNickName"
-                    android:layout_toRightOf="@id/iconNickName"
+                    android:layout_weight="0.95"
                     android:textColorHint="@color/hint_color">
 
                     <EditText
@@ -148,30 +154,32 @@
                         android:textSize="@dimen/text_size" />
                 </android.support.design.widget.TextInputLayout>
 
-            </RelativeLayout>
+            </LinearLayout>
 
 
-            <RelativeLayout
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/margin_10dp">
+                android:layout_marginBottom="@dimen/margin_10dp"
+                android:orientation="horizontal"
+                android:weightSum="1">
 
                 <TextView
                     android:id="@+id/iconEmail"
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.05"
                     android:text="@string/email_icon"
                     android:textColor="@color/icon_color"
                     android:textSize="@dimen/font_icon_size" />
 
                 <android.support.design.widget.TextInputLayout
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="@dimen/margin_20dp"
                     android:layout_marginStart="@dimen/margin_20dp"
-                    android:layout_toEndOf="@id/iconEmail"
-                    android:layout_toRightOf="@id/iconEmail"
+                    android:layout_weight="0.95"
                     android:textColorHint="@color/hint_color">
 
                     <EditText
@@ -183,29 +191,31 @@
                         android:textSize="@dimen/text_size" />
                 </android.support.design.widget.TextInputLayout>
 
-            </RelativeLayout>
+            </LinearLayout>
 
-            <RelativeLayout
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/margin_10dp">
+                android:layout_marginBottom="@dimen/margin_10dp"
+                android:orientation="horizontal"
+                android:weightSum="1">
 
                 <TextView
                     android:id="@+id/iconMobileNumber"
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.05"
                     android:text="@string/mobile_number_icon"
                     android:textColor="@color/icon_color"
                     android:textSize="@dimen/simple_icon_size" />
 
                 <android.support.design.widget.TextInputLayout
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="@dimen/margin_20dp"
                     android:layout_marginStart="@dimen/margin_20dp"
-                    android:layout_toEndOf="@id/iconMobileNumber"
-                    android:layout_toRightOf="@id/iconMobileNumber"
+                    android:layout_weight="0.95"
                     android:textColorHint="@color/hint_color">
 
                     <EditText
@@ -217,29 +227,31 @@
                         android:textSize="@dimen/text_size" />
                 </android.support.design.widget.TextInputLayout>
 
-            </RelativeLayout>
+            </LinearLayout>
 
-            <RelativeLayout
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/margin_10dp">
+                android:layout_marginBottom="@dimen/margin_10dp"
+                android:orientation="horizontal"
+                android:weightSum="1">
 
                 <TextView
                     android:id="@+id/iconAddress"
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.05"
                     android:text="@string/address_icon"
                     android:textColor="@color/icon_color"
-                    android:textSize="@dimen/simple_icon_size" />
+                    android:textSize="@dimen/font_icon_size" />
 
                 <android.support.design.widget.TextInputLayout
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="@dimen/margin_20dp"
                     android:layout_marginStart="@dimen/margin_20dp"
-                    android:layout_toEndOf="@id/iconAddress"
-                    android:layout_toRightOf="@id/iconAddress"
+                    android:layout_weight="0.95"
                     android:textColorHint="@color/hint_color">
 
                     <EditText
@@ -252,7 +264,7 @@
                         android:textSize="@dimen/text_size" />
                 </android.support.design.widget.TextInputLayout>
 
-            </RelativeLayout>
+            </LinearLayout>
 
 
         </LinearLayout>

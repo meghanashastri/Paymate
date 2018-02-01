@@ -1,4 +1,4 @@
-package com.example.meg.paymate;
+package com.example.meg.paymate.activities;
 
 import android.graphics.Typeface;
 import android.support.v4.app.Fragment;
@@ -9,10 +9,11 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 
+import com.example.meg.paymate.R;
 import com.example.meg.paymate.fragments.AddContactScreenOneFragment;
 import com.example.meg.paymate.utils.FontManager;
 
-public class MainActivity extends AppCompatActivity {
+public class AddContactActivity extends AppCompatActivity {
 
     private AddContactScreenOneFragment mFragmentOne;
 

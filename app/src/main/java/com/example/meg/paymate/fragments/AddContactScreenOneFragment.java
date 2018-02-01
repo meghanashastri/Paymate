@@ -72,6 +72,11 @@ public class AddContactScreenOneFragment extends android.support.v4.app.Fragment
         }
     }
 
+    /**
+     * Method to change fragment
+     * @param fragment
+     * @param TAG
+     */
     public void replaceFragment(Fragment fragment, String TAG) {
         FragmentManager mFragmentManager = getActivity().getSupportFragmentManager();
         FragmentTransaction mFragmentTransaction = mFragmentManager.beginTransaction();

@@ -1,6 +1,5 @@
 package com.example.meg.paymate.activities;
 
-import android.graphics.Typeface;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
@@ -11,7 +10,6 @@ import android.view.MenuItem;
 
 import com.example.meg.paymate.R;
 import com.example.meg.paymate.fragments.AddContactScreenOneFragment;
-import com.example.meg.paymate.utils.FontManager;
 
 public class AddContactActivity extends AppCompatActivity {
 
@@ -22,7 +20,6 @@ public class AddContactActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         initToolbar();
-        initViews();
         mFragmentOne = new AddContactScreenOneFragment();
         replaceFragment(mFragmentOne, AddContactScreenOneFragment.class.getSimpleName());
 
@@ -40,14 +37,6 @@ public class AddContactActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
-    /**
-     * Initialise Views
-     */
-    private void initViews() {
-        Typeface iconFont = FontManager.getTypeface(this, FontManager.SIMPLELINE);
-        // holder.icon.setTypeface(iconFont);
-    }
-
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
@@ -60,6 +49,7 @@ public class AddContactActivity extends AppCompatActivity {
     }
 
     /**
+     * Method to change fragment
      * @param fragment
      * @param TAG
      */

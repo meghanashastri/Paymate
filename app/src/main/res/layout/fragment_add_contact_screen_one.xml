@@ -28,17 +28,19 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/btnOne"
+        android:id="@+id/btnNext"
         android:layout_width="@dimen/circle_button_radius"
         android:layout_height="@dimen/circle_button_radius"
         android:layout_above="@id/progressBarLayout"
+        android:text="@string/right_icon"
         android:layout_centerHorizontal="true"
+        android:textSize="@dimen/button_text_size"
         android:background="@drawable/circle_button_red" />
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_above="@id/btnOne"
+        android:layout_above="@id/btnNext"
         android:layout_marginTop="@dimen/margin_20dp">
 
         <LinearLayout

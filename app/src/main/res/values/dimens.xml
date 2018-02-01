@@ -8,4 +8,5 @@
     <dimen name="margin_20dp">20dp</dimen>
     <dimen name="text_size">18sp</dimen>
     <dimen name="margin_10dp">10dp</dimen>
+    <dimen name="button_text_size">36sp</dimen>
 </resources>

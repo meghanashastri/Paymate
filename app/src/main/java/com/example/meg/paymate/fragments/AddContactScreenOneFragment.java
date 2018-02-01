@@ -6,6 +6,7 @@ import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 
 import com.example.meg.paymate.R;
@@ -49,6 +50,9 @@ public class AddContactScreenOneFragment extends android.support.v4.app.Fragment
 
         TextView iconAddress = (TextView) rootView.findViewById(R.id.iconAddress);
         iconAddress.setTypeface(fontawesomeIconFont);
+
+        Button btnNext = (Button) rootView.findViewById(R.id.btnNext);
+        btnNext.setTypeface(fontawesomeIconFont);
 
     }
 }

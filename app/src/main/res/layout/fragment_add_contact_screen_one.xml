@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/bg_color">
 
     <LinearLayout
         android:id="@+id/progressBarLayout"
@@ -67,7 +68,8 @@
                     android:layout_marginLeft="@dimen/margin_20dp"
                     android:layout_marginStart="@dimen/margin_20dp"
                     android:layout_toEndOf="@id/iconFirstName"
-                    android:layout_toRightOf="@id/iconFirstName">
+                    android:layout_toRightOf="@id/iconFirstName"
+                    android:textColorHint="@color/hint_color">
 
                     <EditText
                         android:layout_width="match_parent"
@@ -99,7 +101,8 @@
                     android:layout_marginLeft="@dimen/margin_20dp"
                     android:layout_marginStart="@dimen/margin_20dp"
                     android:layout_toEndOf="@id/iconLastName"
-                    android:layout_toRightOf="@id/iconLastName">
+                    android:layout_toRightOf="@id/iconLastName"
+                    android:textColorHint="@color/hint_color">
 
                     <EditText
                         android:layout_width="match_parent"
@@ -131,7 +134,8 @@
                     android:layout_marginLeft="@dimen/margin_20dp"
                     android:layout_marginStart="@dimen/margin_20dp"
                     android:layout_toEndOf="@id/iconNickName"
-                    android:layout_toRightOf="@id/iconNickName">
+                    android:layout_toRightOf="@id/iconNickName"
+                    android:textColorHint="@color/hint_color">
 
                     <EditText
                         android:layout_width="match_parent"
@@ -165,7 +169,8 @@
                     android:layout_marginLeft="@dimen/margin_20dp"
                     android:layout_marginStart="@dimen/margin_20dp"
                     android:layout_toEndOf="@id/iconEmail"
-                    android:layout_toRightOf="@id/iconEmail">
+                    android:layout_toRightOf="@id/iconEmail"
+                    android:textColorHint="@color/hint_color">
 
                     <EditText
                         android:layout_width="match_parent"
@@ -198,7 +203,8 @@
                     android:layout_marginLeft="@dimen/margin_20dp"
                     android:layout_marginStart="@dimen/margin_20dp"
                     android:layout_toEndOf="@id/iconMobileNumber"
-                    android:layout_toRightOf="@id/iconMobileNumber">
+                    android:layout_toRightOf="@id/iconMobileNumber"
+                    android:textColorHint="@color/hint_color">
 
                     <EditText
                         android:layout_width="match_parent"
@@ -231,7 +237,8 @@
                     android:layout_marginLeft="@dimen/margin_20dp"
                     android:layout_marginStart="@dimen/margin_20dp"
                     android:layout_toEndOf="@id/iconAddress"
-                    android:layout_toRightOf="@id/iconAddress">
+                    android:layout_toRightOf="@id/iconAddress"
+                    android:textColorHint="@color/hint_color">
 
                     <EditText
                         android:layout_width="match_parent"

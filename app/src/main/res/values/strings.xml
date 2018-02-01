@@ -7,10 +7,17 @@
     <string name="hint_email">Email</string>
     <string name="hint_mobile_number">Mobile Number</string>
     <string name="hint_address">Address</string>
+    <string name="hint_company_name">Company Name</string>
+    <string name="hint_referral_code">Referral Code</string>
+    <string name="hint_gstin">GSTIN</string>
+    <string name="hint_account_number">Account Number</string>
+    <string name="hint_ifcs_code">IFSC Code</string>
+    <string name="hint_bank_name">Bank Name</string>
 
     <string name="first_name_icon">&#xe001;</string>
     <string name="email_icon">&#xe01f;</string>
     <string name="mobile_number_icon">&#xf10b;</string>
     <string name="address_icon">&#xf015;</string>
     <string name="right_icon">&#xf105;</string>
+    <string name="cancel_icon">&#xf00d;</string>
 </resources>

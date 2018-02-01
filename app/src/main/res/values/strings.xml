@@ -10,6 +10,7 @@
     <string name="hint_company_name">Company Name</string>
     <string name="hint_referral_code">Referral Code</string>
     <string name="hint_gstin">GSTIN</string>
+    <string name="gst">GST</string>
     <string name="hint_account_number">Account Number</string>
     <string name="hint_ifcs_code">IFSC Code</string>
     <string name="hint_bank_name">Bank Name</string>

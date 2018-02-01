@@ -159,8 +159,8 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_weight="0.07"
-                    android:text="@string/hint_gstin"
-                    android:textColor="@color/hint_color"
+                    android:text="@string/gst"
+                    android:textColor="@color/icon_color"
                     android:textSize="@dimen/text_size_12sp" />
 
                 <android.support.design.widget.TextInputLayout
